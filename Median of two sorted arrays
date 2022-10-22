@@ -27,6 +27,9 @@ class Solution {
             {
                 if((size1+size2)%2 == 0)
                     return ( (Math.max(l1,l2) + Math.min(r1,r2) )/2.0 );
+                    
+                    else
+                   return Math.max(l1,l2)*1.0;
                                      
             }
             
