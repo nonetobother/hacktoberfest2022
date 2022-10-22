@@ -10,8 +10,8 @@ class Solution {
             int rightH = height[end];
             
             max = Math.max(max, ((end - start ) * Math.min( leftH, rightH )));
-            
-            if(leftH <= rightH)
+            //This check works for only < case
+            if(leftH < rightH)
                 start++;
             
             else
