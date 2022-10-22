@@ -1,9 +1,6 @@
 class Solution {
    	public String minWindow(String str, String t) {
 		String ans="";
-		//Added base case 
-		if(t.length() > str.length())
-			return "";
 			
 		else {
 		HashMap<Character, Integer> map = new HashMap<Character, Integer>();
